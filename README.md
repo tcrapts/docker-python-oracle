@@ -1,5 +1,5 @@
 # docker-python-oracle
-__docker-python-oracle__ provides a reference for connecting to an Oracle database with Python/Pandas using Docker. Docker is used to avoid local dependencies on mandatory Oracle drivers.
+__docker-python-oracle__ provides a reference for connecting to an Oracle database with Python/Pandas using Docker. Docker is used to avoid local dependencies on required Oracle drivers.
 
 ## Usage
 * Rename `.env.example` to `.env` and set the required environment variables.

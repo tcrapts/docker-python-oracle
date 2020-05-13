@@ -11,7 +11,6 @@ port = os.environ['DB_PORT']
 username = os.environ['DB_USERNAME']
 password = os.environ['DB_PASSWORD']
 
-
 # read query
 query_path = sys.argv[1] if sys.argv[1] is not None else 'query.sql'
 f = open(query_path,'r')
