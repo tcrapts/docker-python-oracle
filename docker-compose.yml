@@ -1,0 +1,12 @@
+version: '3'
+services:
+    processor:
+        build:
+            context: .
+            args:
+                - DB_HOST=${DB_HOST}
+                - DB_SERVICE_NAME=${DB_SERVICE_NAME}
+                - DB_PORT=${DB_PORT} 
+                - DB_USERNAME=${DB_USERNAME}
+                - DB_PASSWORD=${DB_PASSWORD}                
+        image: python-oracle
