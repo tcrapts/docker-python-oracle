@@ -7,4 +7,4 @@ __docker-python-oracle__ provides a reference for connecting to an Oracle databa
 * Run `/scripts/run.py`: ```docker run python-mssql python run.py```
 
 ## Remarks
-The directory `oracle-instantclient` containts zip files with the Oracle drivers. These drivers can also be downloaded from the [Oracle website](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html).
+The directory `oracle-instantclient` contains zip files with the Oracle drivers. These drivers can also be downloaded from the [Oracle website](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html).
