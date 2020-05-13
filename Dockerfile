@@ -21,18 +21,6 @@ RUN pip install -Iv pandas===1.0.1 &&\
     pip install -Iv pyodbc===4.0.30 &&\
     pip install -Iv cx_Oracle===7.3.0
 
-# configure credentials
-ARG DB_HOST
-ENV DB_HOST=${DB_HOST}
-ARG DB_SERVICE_NAME
-ENV DB_SERVICE_NAME=${DB_SERVICE_NAME}
-ARG DB_PORT
-ENV DB_PORT=${DB_PORT}
-ARG DB_USERNAME
-ENV DB_USERNAME=${DB_USERNAME}
-ARG DB_PASSWORD
-ENV DB_PASSWORD=${DB_PASSWORD}    
-
 # configure container
-WORKDIR /app
+WORKDIR /script
 ENTRYPOINT ["python", "-u"]
