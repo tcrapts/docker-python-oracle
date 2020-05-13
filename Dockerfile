@@ -34,5 +34,5 @@ ARG DB_PASSWORD
 ENV DB_PASSWORD=${DB_PASSWORD}    
 
 # configure container
-COPY /script /script
-WORKDIR /script
+WORKDIR /app
+ENTRYPOINT ["python", "-u"]

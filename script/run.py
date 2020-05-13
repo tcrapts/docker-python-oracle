@@ -4,6 +4,7 @@ import os
 import cx_Oracle
 
 # configure connection
+print('test')
 host = os.environ['DB_HOST']
 service_name = os.environ['DB_SERVICE_NAME']
 port = os.environ['DB_PORT']
